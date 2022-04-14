@@ -1,0 +1,39 @@
+/* Genel yapılar */
+p {
+    text-align: center;  
+}
+
+/* Özel sınıflar */
+.container {
+    margin: auto auto;
+    width: 1000px;
+}
+.top-bar {
+    margin-top: 70px;
+    text-align: center;
+    padding: 10px;
+}
+
+.search-bar {
+    background-color:rgb(192, 187, 184);
+}
+.bottom-bar {
+    text-align: center;
+    background-color: white;
+    clear: left;
+}
+.link-bar{
+    margin: 0px 10px;
+    width: 1000px;
+    float: left;
+}
+/* Bu sınıf link-bar içinde olan kutuları yönetmek için oluşturuldu */
+.card{
+    width: 30%;
+    height: 100px;
+    float: left;
+    padding: 1%;
+    margin-right: 1%;
+    background-color: rgb(49, 227, 240);
+    }   
+
